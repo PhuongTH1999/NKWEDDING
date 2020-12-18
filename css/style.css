@@ -319,6 +319,7 @@ h1, h2, h3, h4, h5, h6 {
   .qbootstrap-cover,
   .qbootstrap-hero {
     height: 700px;
+    
   }
 }
 
@@ -335,9 +336,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .qbootstrap-cover,
 .video-hero {
-  background-size: cover;
+  /* background-size :100% 100%; */
   position: relative;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 700px) {
+  .qbootstrap-cover,
+  .video-hero {
+    background-size:100% 100%;
+    background-image: url(../images/a35.jpg);
+  }
 }
 @media screen and (max-width: 768px) {
   .qbootstrap-cover,
