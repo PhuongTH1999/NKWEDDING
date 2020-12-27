@@ -695,7 +695,7 @@
 .icon-linkedin:before {
 	content: "\f0e1";
 }
-.icon-rotate-left:before {
+.icon-rotate-left:before { 
 	content: "\f0e2";
 }
 .icon-undo:before {
